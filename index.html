@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="nft-card">
+      <img onmouseover="hoverImg()" onmouseleave="removeHoverImg()" class="nft-img" src="./images/image-equilibrium.jpg" alt="Imagem do cubo NFT">
+    <div class="img-view" hidden><img  src="./images/icon-view.svg" alt=""></div>
+    <h1 class="nft-card-title" onmouseover="hoverImg()" onmouseleave="removeHoverImg()">Equilibrium #3429</h1>
+    <p class="nft-card-description">Our Equilibrium collection promotes balance and calm.</p>
+    <span class="nft-value">
+      <img src="./images/icon-ethereum.svg" alt="Icone ethereum">
+      0.041 ETH
+    </span>
+    <span class="nft-tempo-restante">
+      <img src="./images/icon-clock.svg" alt="icone de relogio">
+      3 days left
+    </span>
+    <hr class="linha">
+    <div class="nft-author">
+      <img src="./images/image-avatar.png" alt="foto de perfil do Jules ">
+      <span>Creation of <a onmouseover="hoverImg()" onmouseleave="removeHoverImg()"  href="#">Jules Wyvern</a> </span>
+    </div>
+  </div>
+</body>
+<script src="./js/scripts.js"></script>
+</html>
