@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://bruno2026.github.io/FEM-chalenge01/)
 
 ## My process
 
@@ -51,5 +51,5 @@ I learnead to use filter with opacity and drop-shadow in the image.
 ```
 ## Author
 
-- Github - [Bruno Gomes Ferreira](https://www.your-site.com)
+- Github - [Bruno Gomes Ferreira](https://github.com/bruno2026/FEM-chalenge01)
 - Frontend Mentor - [@bruno2026](https://www.frontendmentor.io/profile/bruno2026)
